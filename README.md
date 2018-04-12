@@ -2,6 +2,12 @@
 
 This is the code for a hardware device that makes it easy to keep score in table tennis games with 21-point or 11-point games. It is written entirely in c++14 and is targeted toward the atmega328p microcontroller, but could readily be ported to other microcontrollers.
 
+# Images
+
+![front](https://raw.githubusercontent.com/jonesinator/scorgasmatron/master/front.jpg)
+
+![back](https://raw.githubusercontent.com/jonesinator/scorgasmatron/master/back.jpg)
+
 # Usage
 
 The avr-gcc toolchain must be installed. Once the toolchain is installed simply use the `make` command to create a hex file that can be programmed onto the microcontroller.
